@@ -5,7 +5,9 @@ body {
 main {
     background-color:white;
 }
-
+.h2 {
+    font-size:20px;
+}
 .img1 {
 
 padding:10px;
@@ -13,4 +15,33 @@ float:left
 }
 .p1 {
     text-align:justify;
+}
+.img1 {
+    max-width:200px;
+    max-height:257px;
+}
+@media screen and (max-width:768px) {
+.img1 {
+    width: 200px;
+    height:257px;
+}
+
+}
+@media screen and (max-width:375px) {
+    .img1 {
+        width:140px;
+        height:181px;
+    }
+    .h2 {
+        font-size:20px;
+    }
+}
+@media screen and (max-width:675px) {
+.img1 {
+    width: 200px;
+    height:274px;
+}
+.h2 {
+    font-size:16px;
+}
 }
