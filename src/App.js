@@ -2,12 +2,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
+import{ init } from 'emailjs-com';
+init("user_PbCiI89X40EjyIBgDsF53");
 
 function App() {
   return (
@@ -34,7 +35,6 @@ function App() {
         }}
       />
       <Navbar />
-      <Header />
       <AboutMe />
       <Services />
       <Portfolio />

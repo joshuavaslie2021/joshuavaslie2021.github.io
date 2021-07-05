@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
+import{ init } from 'emailjs-com';
+init("user_PbCiI89X40EjyIBgDsF53");
 
 const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");
